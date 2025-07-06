@@ -17,7 +17,7 @@ This AWS Lambda container function logs in to Viewpoint, downloads the latest pa
 ## 2 · Build the container image
 
 ```bash
-git clone https://github.com/sguidia/paystub-lambda.git
+git clone git@github.com:sguidia/paystub-lambda.git
 cd paystub-lambda
 docker build -t paystub-lambda:latest .
 ```
@@ -56,7 +56,7 @@ docker push \
 
 | Setting | Value |
 |---------|-------|
-| **Image URI** | `123456789012.dkr.ecr.us‑east‑1.amazonaws.com/paystub-lambda:latest` |
+| **Image URI** | `AWS_ACCOUNT_ID.dkr.ecr.us‑east‑1.amazonaws.com/paystub-lambda:latest` |
 | **Memory** | 1024 MB |
 | **Timeout** | 300 s |
 | **Architecture** | x86_64 |
