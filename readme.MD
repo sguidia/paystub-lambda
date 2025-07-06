@@ -70,9 +70,11 @@ Open **Configuration → Environment variables** and add this key:
 | Key | Value |
 |-----|-------|
 | **USERS_JSON** | `[{"username":"number","password":"password","email_to":"your_email","email_from":"your_email","email_pass":"password for app"}]` |
+---
 
 
 **USERS_JSON** must be pasted as a single line including the enclosing square brackets.
+
 ---
 
 ## 6 · Local smoke test (optional)
